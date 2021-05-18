@@ -49,7 +49,7 @@ eval "$BUILD glacier-music-git"
 eval "$BUILD mce-headers-git"
 eval "$BUILD libiphb-git"
 eval "$BUILD nemo-keepalive-git"
-eval "$BUILD nemo-qml-plugin-dbus-git"
+#eval "$BUILD nemo-qml-plugin-dbus-git" No PKGBUILD
 eval "$BUILD ssu-sysinfo-git"
 eval "$BUILD nemo-qml-plugin-devicelock-git"
 eval "$BUILD qt5-mlite-git"
