@@ -19,7 +19,7 @@ if [ "$BUILDARCH" == "aarch64" ]; then
     BUILD="${BUILD-build_aarch64_fn}"
 else
     echo "Build for $(uname -m) arch"
-    BUILD="${BUILD-buildpkg -n -p}"
+    BUILD="${BUILD-chrootbuild -n -p}"
 fi
 
 # apps
